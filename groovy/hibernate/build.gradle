@@ -1,0 +1,13 @@
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    groovy localGroovy()
+    compile "org.hibernate:hibernate-annotations:3.4.0.GA"
+    runtime "org.slf4j:slf4j-simple:1.4.2"
+    runtime "hsqldb:hsqldb:1.8.0.7"
+    runtime "javassist:javassist:3.4.GA"
+}
