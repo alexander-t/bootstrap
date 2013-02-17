@@ -8,11 +8,11 @@ Use Slim instead of Fit
 
 Import the actual fixture
 |import|
-|fixture|
+|fixture.helloworld|
  
 Create hello world greeting -> fixture.helloworld.CreateHelloWorldGreeting
 Receiver -> fixture.helloworld.CreateHelloWorldGreeting.setReceiver(String)
 messsage -> fixture.helloworld.CreateHelloWorldGreeting.messsage() Note that it's not a getter!
 !|Create hello world greeting |
 |Receiver|message?            | 
-|world|Hello World!           |
+|world|Hello world!           |
