@@ -1,0 +1,4 @@
+!1 Welcome to [[FitNesse][FitNesse.FitNesse]]!
+| '''Samples'''|
+| HelloWorld | FitNesse Hello World|
+!note Release ${FITNESSE_VERSION}

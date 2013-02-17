@@ -1,0 +1,18 @@
+This "should not be needed", but was.
+!path fitnesse-standalone.jar
+Path to compiled fixutres:
+!path build/classes/main
+
+Use Slim instead of Fit
+!define TEST_SYSTEM {slim}
+
+Import the actual fixture
+|import|
+|fixture|
+ 
+Create hello world greeting -> fixture.helloworld.CreateHelloWorldGreeting
+Receiver -> fixture.helloworld.CreateHelloWorldGreeting.setReceiver(String)
+messsage -> fixture.helloworld.CreateHelloWorldGreeting.messsage() Note that it's not a getter!
+!|Create hello world greeting |
+|Receiver|message?            | 
+|world|Hello World!           |
