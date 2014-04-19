@@ -1,0 +1,6 @@
+*.suo
+*.cache
+*.pdb
+*.dll
+bin
+Debug
