@@ -5,6 +5,9 @@
 bin
 Debug
 
-.idea
-.classes
+.idea/
+classes/
 *.iml
+
+.gradle/
+build/
